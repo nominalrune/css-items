@@ -56,12 +56,12 @@ body {
   border-radius: 50%;
   aspect-ratio: 1 / 1;
   background-color:#3f00f0;
-  color:#fff;
+  color:#ffe;
   border:none;
   transition-duration:200ms;
 }
 .ripple .inner:hover{
-  filter:brightness(1.5) hue-rotate(-5.0deg) drop-shadow(0 0 2.5px #333);
+  filter:brightness(1.5) hue-rotate(-5.0deg) drop-shadow(0 0 2.5px #000);
   transform: scale(1.05);
 }
 /* .ripple>.inner::before{
