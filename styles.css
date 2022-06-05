@@ -1,10 +1,16 @@
 body {
   background: #fff;
 }
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  height: 96px; 
+}
+
 .proggress {
   position: relative;
-  width: 96px;
-  height: 96px;
   content: '';
   background: conic-gradient(#3f00f000 70%, #3f00f0ff 95%, #3f00f040 100%),
     conic-gradient(#3f00f000 40%, #3f00f0ff 99%, #3f00f000 100%);
@@ -34,13 +40,7 @@ body {
   }
 }
 
-.ripple {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 96px;
-  height: 96px; 
-}
+
 .ripple > [style] {
   position: absolute;
   width: 96px;
@@ -102,3 +102,10 @@ body {
     opacity: 0;
   }
 } ;
+
+
+.shape>div{
+  position: absolute;
+  background-color:#3f00f0;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
